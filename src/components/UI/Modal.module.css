@@ -1,0 +1,31 @@
+.modal {
+  background-color: white;
+  width: 600px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.modal-title {
+  background-color: red;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.modal-content {
+  width: 100%;
+  margin: 10px;
+}
+
+.modal button {
+  margin: 10px 10px 10px auto;
+  background-color: red;
+  font-weight: bold;
+}
