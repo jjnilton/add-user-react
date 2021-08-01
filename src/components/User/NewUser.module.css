@@ -22,6 +22,14 @@
   border: 2px solid red;
 }
 
+.new-user input:invalid {
+  border: 2px solid red;
+}
+
+.new-user input:focus:invalid {
+  background-color: #fdd;
+}
+
 .new-user input.invalid:focus {
   background-color: #fdd;
 }
